@@ -1,0 +1,71 @@
+<!DOCTYPE html> <!-- -->
+<html lang="es">
+
+<head>
+	<meta charset="iso-8859-1" /> <!--  especifica cómo el texto será presentado en pantalla -->
+ 	<meta name=”description” content=”Ejemplo de HTML5” />
+ 	<meta name=”keywords” content=”HTML5, CSS3, Javascript” />
+ 	<title>titulo en el navegador</title> <!-- especifica el título del documento -->
+ 	<link rel=”stylesheet” href=”misestilos.css”> <!-- incorporación de archivos con estilos CSS -->
+</head>
+
+<body>
+	<header>
+ 	<h1>Este es el titulo principal del sitio web</h1> <!-- h1 es mayor tamaño, h6 es el menor -->
+ 	</header> 
+ 	<nav>
+	 	<ul> <!-- definir la lista-->
+		 <li>principal</li> <!-- definir cada ítem de la lista -->
+		 <li>fotos</li>
+		 <li>videos</li>
+		 <li>contacto</li>
+		 </ul>
+	</nav>
+	<section>
+		<article> <!-- nos permite identificar parte de texto dentro de un seccion-->
+			<header>
+				<hgroup>
+					<h1>Titulo del mensaje uno</h1>
+					<h2>Subtitulo del mensaje uno</h2>
+				</hgroup>
+			</header>
+			Este es el texto de mi primer mensaje
+			<span>Mi <mark>coche</mark> es rojo</span> <!-- resaltado-->
+			<span>Mi <em>coche cursivo</em> es rojo</span> <!-- cursivo -->
+			<span>Mi <strong>coche negrita</strong> es rojo</span> <!-- negrita -->
+			<span>Mi <b>coche</b> es rojo</span> <!-- negrita alternativo-->
+			<figure> <!-- nos ayuda a ser aún más específicos a la hora de declarar el contenido del documento como ilustraciones, fotos, videos, etc--> 
+				<img src=”http://minkbooks.com/content/myimage.jpg”>
+				<figcaption> <!-- leyenda -->
+					Esta es la imagen del primer mensaje
+				</figcaption>
+			</figure> 
+			<footer>
+				<p>comentarios (0)</p>
+			</footer>
+		</article>
+		<article>
+			<header>
+				<hgroup>
+					<h1>Titulo del mensaje dos</h1>
+					<h2>Subtitulo del mensaje dos</h2>
+				</hgroup>
+			</header>
+			Este es el texto de mi segundo mensaje
+			<span>Amo la pelicula <cite>Tentaciones</cite></span>
+			<time datetime="2011-10-12" pubdate>publicado 12-10-2011</time> 
+			<footer>
+				<p>comentarios (0)</p>
+			</footer>
+		</article> 
+ 	</section>
+ 	<aside> <!-- barra lateral-->
+		<blockquote>Mensaje numero uno</blockquote>
+		<blockquote>Mensaje numero dos</blockquote>
+	</aside>
+	<footer> <!-- pie de pagina -->
+		<small>Derechos Reservados &copy; 2017-2018</small>
+	</footer> 
+
+</body>
+</html> 
