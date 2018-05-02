@@ -1,0 +1,171 @@
+body {
+	/*background:#f2f2f2;*/
+	/*background:url("../imagenes/imagen.png");*/
+	/*background-repeat:no-repeat;*/
+	/*background-attachment:scroll;*/
+	/*background-attachment:fixed;*/
+	/*background-position:200px 50px;*/
+}
+img {
+	width:150px;
+	border-radius:10px;
+	display:block;
+	box-shadow: 5px 5px 0px grey;
+	/*border:1px solid black;*/
+}
+
+h2 {
+	color: green;
+	font-size: 40px;
+}
+
+ol {
+	list-style:lower-latin;
+}
+
+.caja {
+	/*background:orange;*/
+	/*position:relative;*/
+	/*position:absolute;*/
+	/*position:fixed;*/
+	/*position:static;*/
+	/*float:left;*/
+	position:fl
+	right:0px;
+	left:0px;
+	top:0px;
+	bottom:0px;
+}
+
+.tipografia {
+	color:black;
+	/*color:rgba(0,0,0,0.5);*/
+	font-family:Arial, Helvetica, Sans-serif;
+	font-size:16px;
+	/*font-weight:bold;*/
+	font-weight:normal;
+	text-align:justify;
+	/*line-height:20px;*/
+	/*text-decoration:underline;*/
+	/*text-decoration:line-through;*/
+	/*text-transform:uppercase;*/
+	/*letter-spacing:10px;*/ /*espacio entre letras*/
+	/*word-spacing:10px;*/
+	text-shadow: 5px 5px 5px #000;
+
+}
+
+.clear {
+	clear:both;
+}
+
+/*
+a:link{
+	color:blue;
+}
+
+a:hover {
+	background:orange;
+	color:red;
+}
+
+a:visited {
+	color:black;
+}
+
+a:active{
+	color:green;
+}
+*/
+
+/* menu con a */
+.prueba1 a {
+	display:inline-block;
+	margin:10px 20px;
+	text-decoration:none;
+	background:blue;
+	color:white;
+	padding:10px 20px;
+	box-shadow:0px 5px 0px orange;
+
+}
+
+.prueba1 a:hover {
+	box-shadow:0px 2px 0px orange;
+	background:grey;
+}
+
+.prueba1 a:active {
+	box-shadow:0px 0px 0px orange;
+}
+
+/* menu con listas */
+
+.prueba2 {
+	background:black;
+	padding:0px;
+	margin:0px;
+	width:41.3%;
+	list-style:none;
+}
+
+.prueba2 li {
+	display:inline-block;
+
+}
+
+.prueba2 li a {
+	color:white;
+	display:inline-block;
+	padding:10px 20px;
+}
+
+.prueba2 li a:hover {
+	background:grey;
+	color:black;
+}
+
+form {
+	width:25%;
+	border:1px solid #ccc;
+	margin:20px;
+	padding:20px;
+}
+
+label {
+	font-size:12px;
+	display:block;
+	width:100%;
+}
+
+textarea {
+	resize:vertical;
+	max-height:300px;
+	min-height:100px;
+}
+
+input, textarea {
+	margin-bottom:30px;
+	width:100%;
+	padding:10px;
+	box-sizing:border-box;
+	border:1px solid #ccc; 
+}
+
+input:focus, textarea:focus {
+	border:1px solid #1668c4;
+}
+
+input[type="submit"]{
+	margin-bottom:0;
+	background:#1668c4;
+	color:white;
+	border:none;
+}
+
+input[type="submit"]:hover {
+	background:#4A88F4;
+	cursor:pointer;
+}
+
+
